@@ -23,7 +23,7 @@ The pre-trained models and sample data associated with this research are hosted 
 
 ## Usage 
 
-To run the code, simply download the repository and follow the instructions in the README file. 
+To run the code, simply download the repository and follow the instructions in the **main.py** file. 
 
 ## Future Work
 
