@@ -1,6 +1,4 @@
-# DeepWaterFraction-Precision-Estimation-of-Sub-Pixel-Scale-Water-Areas-in-Landsat-Imagery
-
-# Repository Title: Surface Water Detection with Sub-Pixel Precision Using Deep Learning 
+# DeepWaterFraction: Precision Estimation of Sub Pixel Scale Water Areas in Landsat Imagery
 
 ## Description
 
