@@ -8,6 +8,10 @@ Specifically, our method reduces error rates by 53.4% for water bodies with a mi
 
 Our research opens a new avenue for accurate space-based estimation of river discharge, making it a crucial asset for global water resource monitoring.
 
+The pre-trained models and sample data associated with this research are hosted on Zenodo (links provided below). 
+
+![Comparison Figure](./data/compare.png)
+
 ## Content of the Repository
 
 - **main.py**: This is the main script which loads the data, applies the deep learning model, visualizes the results, and saves them.
