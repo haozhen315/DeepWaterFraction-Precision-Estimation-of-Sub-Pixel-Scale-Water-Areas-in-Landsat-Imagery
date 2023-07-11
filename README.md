@@ -15,7 +15,7 @@ The pre-trained models and sample data associated with this research are hosted 
 
 - **main.py**: This is the main script which loads the data, applies the deep learning model, visualizes the results, and saves them.
 - **dwf.py**: This script contains the implementation of the Deep Water Fraction (DWF) estimation model.
-- **Pre-trained weights**: These are the weights of the models that have been pre-trained on our dataset. They can be found in the directory [specify directory].
+- **Pre-trained weights**: These are the weights of the models that have been pre-trained on our dataset. They can be found in the directory [https://zenodo.org/record/8133474].
 
 ## Usage 
 
@@ -27,20 +27,12 @@ This repository will be actively maintained and updated as we refine our model a
 
 ## Contact Information
 
-If you encounter any issues or have any questions about the code or the research, please feel free to contact us at [your email].
+If you encounter any issues or have any questions about the code or the research, please feel free to contact us at [zhen.hao18@alumni.imperial.ac.uk].
 
 ## Citation
 
 If you find our work helpful in your research, please consider citing our paper:
 
 ```
-[Your Bibtex citation]
+[Under review]
 ```
-
-## Acknowledgements
-
-This research was supported by [insert your acknowledgements here]. We thank all our team members and contributors for their hard work and valuable insights. 
-
-## License
-
-This project is licensed under the [insert your license here] License - see the LICENSE.md file for details.
