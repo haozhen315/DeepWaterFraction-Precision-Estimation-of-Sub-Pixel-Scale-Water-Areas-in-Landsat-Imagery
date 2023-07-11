@@ -2,28 +2,24 @@
 
 ## Description
 
-This repository contains code and pre-trained models for a self-training deep learning methodology that estimates surface water areas at a sub-pixel scale, as described in our research paper "[Paper Title]". The presented method provides significantly improved accuracy in detecting and estimating water bodies at fine scales, demonstrated by a pixel-wise root mean squared error for surface water area fraction of 14.8%. 
+This repository contains code and pre-trained models for DeepWaterFraction, a self-training deep learning methodology that estimates surface water areas at a sub-pixel scale. The presented method provides significantly improved accuracy in detecting and estimating water bodies at fine scales, demonstrated by a pixel-wise root mean squared error for surface water area fraction of 14.8%. 
 
-Specifically, our method reduces error rates by 53.4% for water bodies with a minimum area of 0.001 km² and by 27.4% for those with a minimum area of 0.01 km². Additionally, when applied to streamflow gauges, the method significantly improved the correlation against observed streamflow. The repository also provides scripts for visualizing the results of our model.
-
-Our research opens a new avenue for accurate space-based estimation of river discharge, making it a crucial asset for global water resource monitoring.
+Specifically, our method reduces error rates by 52.7% for water bodies with a minimum area of 0.001 km² and by 22.3% for those with a minimum area of 0.01 km². Additionally, when applied to streamflow gauges and water level stations, the method significantly improved the correlation against observed streamflow and water level. The repository provides scripts for inferencing and visualizing the results of our model.
 
 The pre-trained models and sample data associated with this research are hosted on Zenodo (links provided below). 
 
-![Comparison Figure](./data/compare.png)
+![Comparison Figure](./data/image1.png)
+![Comparison Figure](./data/image2.png)
 
 ## Content of the Repository
 
 - **main.py**: This is the main script which loads the data, applies the deep learning model, visualizes the results, and saves them.
-- **dwf.py**: This script contains the implementation of the Deep Water Fraction (DWF) estimation model, including a custom Gated Convolution 2D Activation module.
-- **utilities.py**: [Please fill out a brief description of this file here.]
+- **dwf.py**: This script contains the implementation of the Deep Water Fraction (DWF) estimation model.
 - **Pre-trained weights**: These are the weights of the models that have been pre-trained on our dataset. They can be found in the directory [specify directory].
-- **Data**: This repository does not host the data used in the research due to its size. However, instructions for acquiring the necessary data are detailed in the README file.
-- **README**: The README file contains detailed information on how to setup and run the provided scripts, as well as information on how to download and prepare the required data.
 
 ## Usage 
 
-To run the code, simply download the repository and follow the instructions in the **main.py** file. 
+To run the code, simply download the repository and run the **main.py** file. 
 
 ## Future Work
 
