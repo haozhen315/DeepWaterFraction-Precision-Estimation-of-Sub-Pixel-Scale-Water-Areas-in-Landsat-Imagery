@@ -28,7 +28,7 @@ pip install -r requirements.txt
 
 ## Usage 
 
-To run the code, simply download the repository and run the **main.py** file. Note that this project requires a GPU to run, so make sure your environment is equipped with a compatible GPU.
+To run the code, simply download the repository and run the `main.py` file. Note that this project requires a GPU to run, so make sure your environment is equipped with a compatible GPU.
 
 ## Future Work
 
