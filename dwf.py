@@ -1,13 +1,27 @@
-import math
-
 import numpy as np
 import torch
 from torch import nn
 from tqdm import tqdm
 
-# modified from https://github.com/JingyunLiang/SwinIR
-from swin_model.archs.swinir_arch import SwinIR
 from utilities import prepare_input_data, get_cloud_mask_landsat_toa
+
+
+# Classification model
+# modified from https://github.com/JingyunLiang/SwinIR
+# from swin_model.archs.swinir_arch import SwinIR
+# model_cla = SwinIR(
+#         upscale=None,
+#         in_chans=10,
+#         num_out_ch=3,
+#         window_size=8,
+#         img_range=1.,
+#         depths=[6, 6, 6, 6, 6, 6],
+#         embed_dim=180,
+#         num_heads=[6, 6, 6, 6, 6, 6],
+#         mlp_ratio=2,
+#         upsampler=None,
+#         resi_connection='1conv'
+#     )
 
 
 class GatedConv2DActivation(torch.nn.Module):
