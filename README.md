@@ -16,7 +16,7 @@ The pre-trained models and sample data associated with this research are hosted 
 - **main.py**: This is the main script which loads the data, applies the deep learning model, visualizes the results, and saves them.
 - **dwf.py**: This script contains the implementation of the Deep Water Fraction (DWF) estimation model.
 - **Pre-trained weights**: These are the weights of the model that have been pre-trained on our dataset. They are hosted on Zenodo: [https://zenodo.org/record/8133474].
-- **swin_model**: This folder contains our modifications of the Swin Transformer classification model that we tested in our paper, though it is not chosen for the final application. The Swin Transformer model is a modified version of the model found at [https://github.com/JingyunLiang/SwinIR]. We extend our gratitude to the authors for their valuable contribution to the community. The call to this model can be found in the `main.py` file.
+- **swin_model**: This folder contains our modifications of the Swin Transformer classification model that we tested in our paper, though it is not chosen for the final application. The Swin Transformer model is a modified version of the model found at [https://github.com/JingyunLiang/SwinIR]. We extend our gratitude to the authors for their valuable contribution to the community. The call to this model can be found in the `dwf.py` file.
 
 ## Dependencies
 
