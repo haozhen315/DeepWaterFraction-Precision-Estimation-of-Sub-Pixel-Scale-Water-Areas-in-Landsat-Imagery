@@ -19,7 +19,7 @@ The pre-trained models and sample data associated with this research are hosted 
 
 # Dependencies
 
-This project uses several Python libraries and require a GPU . You can install them using pip:
+This project uses several Python libraries. You can install them using pip:
 
 ```bash
 pip install -r requirements.txt
