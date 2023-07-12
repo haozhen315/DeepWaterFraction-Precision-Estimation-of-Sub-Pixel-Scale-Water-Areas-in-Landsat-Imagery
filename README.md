@@ -17,9 +17,16 @@ The pre-trained models and sample data associated with this research are hosted 
 - **dwf.py**: This script contains the implementation of the Deep Water Fraction (DWF) estimation model.
 - **Pre-trained weights**: These are the weights of the model that have been pre-trained on our dataset. They are hosted on Zenodo: [https://zenodo.org/record/8133474].
 
+# Dependencies
+
+This project uses several Python libraries and require a GPU . You can install them using pip:
+
+```bash
+pip install -r requirements.txt
+
 ## Usage 
 
-To run the code, simply download the repository and run the **main.py** file. 
+To run the code, simply download the repository and run the **main.py** file. Note that this project requires a GPU to run, so make sure your environment is equipped with a compatible GPU.
 
 ## Future Work
 
