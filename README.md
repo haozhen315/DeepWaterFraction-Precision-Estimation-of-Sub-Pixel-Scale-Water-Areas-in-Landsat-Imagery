@@ -23,6 +23,7 @@ This project uses several Python libraries and require a GPU . You can install t
 
 ```bash
 pip install -r requirements.txt
+```bash
 
 ## Usage 
 
