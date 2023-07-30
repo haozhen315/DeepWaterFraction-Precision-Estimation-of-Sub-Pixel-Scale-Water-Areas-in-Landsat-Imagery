@@ -9,7 +9,6 @@ Specifically, our method reduces error rates by 52.7% for water bodies with a mi
 The pre-trained models and sample data associated with this research are hosted on Zenodo (links provided below). 
 
 ![Comparison Figure](./data/image1.png)
-![Comparison Figure](./data/image2.png)
 
 ## Content of the Repository
 
